@@ -61,18 +61,23 @@
 
 
 
-
+//
 ////倒叙计算，二进制转换器
 //#include<stdio.h>
 //void to_binary(unsigned long n);
+//void to_base_n(unsigned long n, int i);
 //int main(void)
 //{
-//	unsigned long num;
-//	while (scanf_s("%ul", &num) == 1)
-//	{
-//		to_binary(num);
-//		printf("\n");
-//	}
+//	//unsigned long num;
+//	//while (scanf_s("%ul", &num) == 1)
+//	//{
+//	//	to_binary(num);
+//	//	printf("\n");
+//	//}
+//
+//	to_base_n(129, 8);
+//
+//	return 0;
 //}
 //
 //void to_binary(unsigned long n)
@@ -81,5 +86,14 @@
 //	r = n % 2;
 //	if (n >= 2)
 //		to_binary(n / 2);
+//	printf("%d", r);
+//}
+//
+//void to_base_n(unsigned long n, int i)//多进制转换器
+//{
+//	int r;
+//	r = n % i;
+//	if (n > i)
+//		to_base_n(n / i, i);
 //	printf("%d", r);
 //}
