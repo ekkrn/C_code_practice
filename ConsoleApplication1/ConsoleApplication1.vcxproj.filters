@@ -34,6 +34,9 @@
     <Filter Include="源文件\9章">
       <UniqueIdentifier>{cdb8f2d2-429d-4b31-9c9a-2a96f210ddc4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\10章">
+      <UniqueIdentifier>{7be6f63d-bef0-4c6d-a50f-bf699c56e471}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="2.3.c">
@@ -116,6 +119,9 @@
     </ClCompile>
     <ClCompile Include="9.11.cpp">
       <Filter>源文件\9章</Filter>
+    </ClCompile>
+    <ClCompile Include="10.3.cpp">
+      <Filter>源文件\10章</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
