@@ -37,6 +37,27 @@
     <Filter Include="源文件\10章">
       <UniqueIdentifier>{7be6f63d-bef0-4c6d-a50f-bf699c56e471}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\10章\10.13">
+      <UniqueIdentifier>{65e68ad5-c745-491c-9f8c-3d10bdfa4b10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\11chapter">
+      <UniqueIdentifier>{b37de2cd-8c37-4929-8f90-6181fc59e489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\12chapter">
+      <UniqueIdentifier>{a6326499-5d88-470d-9320-f77f0c25cfba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\12chapter\dice">
+      <UniqueIdentifier>{936e66b0-43a0-48d6-bb76-2abc59976de1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\12chapter\12.9">
+      <UniqueIdentifier>{160c6d78-860a-4e99-bb70-8a7f8e1ec7c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\12chapter\12.9\2,3">
+      <UniqueIdentifier>{796bf926-fb55-4de5-9e97-f6bd5a72e99c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\12chapter\12.9\8">
+      <UniqueIdentifier>{db29e2ed-bbd5-4a3f-93ea-b4ce0702338c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="2.3.c">
@@ -123,5 +144,97 @@
     <ClCompile Include="10.3.cpp">
       <Filter>源文件\10章</Filter>
     </ClCompile>
+    <ClCompile Include="10.7.cpp">
+      <Filter>源文件\10章</Filter>
+    </ClCompile>
+    <ClCompile Include="10.12.cpp">
+      <Filter>源文件\10章</Filter>
+    </ClCompile>
+    <ClCompile Include="10.12.3.cpp">
+      <Filter>源文件\10章</Filter>
+    </ClCompile>
+    <ClCompile Include="10.13.9.cpp">
+      <Filter>源文件\10章\10.13</Filter>
+    </ClCompile>
+    <ClCompile Include="10.13.10.cpp">
+      <Filter>源文件\10章\10.13</Filter>
+    </ClCompile>
+    <ClCompile Include="10.13.11.cpp">
+      <Filter>源文件\10章\10.13</Filter>
+    </ClCompile>
+    <ClCompile Include="10.13.13.cpp">
+      <Filter>源文件\10章\10.13</Filter>
+    </ClCompile>
+    <ClCompile Include="11.2.cpp">
+      <Filter>源文件\11chapter</Filter>
+    </ClCompile>
+    <ClCompile Include="11.5.cpp">
+      <Filter>源文件\11chapter</Filter>
+    </ClCompile>
+    <ClCompile Include="11.5.4.cpp">
+      <Filter>源文件\11chapter</Filter>
+    </ClCompile>
+    <ClCompile Include="11.5.4.2.cpp">
+      <Filter>源文件\11chapter</Filter>
+    </ClCompile>
+    <ClCompile Include="11.6.1.cpp">
+      <Filter>源文件\11chapter</Filter>
+    </ClCompile>
+    <ClCompile Include="11.6.2+一部分习题.cpp">
+      <Filter>源文件\11chapter</Filter>
+    </ClCompile>
+    <ClCompile Include="11.13.11.cpp">
+      <Filter>源文件\11chapter</Filter>
+    </ClCompile>
+    <ClCompile Include="11.13.13.cpp">
+      <Filter>源文件\11chapter</Filter>
+    </ClCompile>
+    <ClCompile Include="11.13.16.cpp">
+      <Filter>源文件\11chapter</Filter>
+    </ClCompile>
+    <ClCompile Include="12.2.1.cpp">
+      <Filter>源文件\12chapter</Filter>
+    </ClCompile>
+    <ClCompile Include="12.2.2.cpp">
+      <Filter>源文件\12chapter</Filter>
+    </ClCompile>
+    <ClCompile Include="diceroll.cpp">
+      <Filter>源文件\12chapter\dice</Filter>
+    </ClCompile>
+    <ClCompile Include="manydice.cpp">
+      <Filter>源文件\12chapter\dice</Filter>
+    </ClCompile>
+    <ClCompile Include="1.cpp">
+      <Filter>源文件\12chapter\12.9</Filter>
+    </ClCompile>
+    <ClCompile Include="pel2-2a.cpp">
+      <Filter>源文件\12chapter\12.9\2,3</Filter>
+    </ClCompile>
+    <ClCompile Include="pel2-2b.cpp">
+      <Filter>源文件\12chapter\12.9\2,3</Filter>
+    </ClCompile>
+    <ClCompile Include="4.cpp">
+      <Filter>源文件\12chapter\12.9</Filter>
+    </ClCompile>
+    <ClCompile Include="5.cpp">
+      <Filter>源文件\12chapter\12.9</Filter>
+    </ClCompile>
+    <ClCompile Include="6.cpp">
+      <Filter>源文件\12chapter\12.9</Filter>
+    </ClCompile>
+    <ClCompile Include="pel2-8.cpp">
+      <Filter>源文件\12chapter\12.9\8</Filter>
+    </ClCompile>
+    <ClCompile Include="9.cpp">
+      <Filter>源文件\12chapter\12.9</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="diceroll.h">
+      <Filter>源文件\12chapter\dice</Filter>
+    </ClInclude>
+    <ClInclude Include="pel2-2a.h">
+      <Filter>源文件\12chapter\12.9\2,3</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

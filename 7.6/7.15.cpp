@@ -54,54 +54,54 @@
 
 
 
-//获取整体数组
-//分奇偶数组
-//分别排序
-//输出
-#include<stdio.h>
-void bubblesort(int* arr, int size);//排序
-void devidearr(int* arr, int size);//分数组,输出
-int main(void)
-{
-	int arr[100000];
-	int i, j, k;
-	//获取数组
-	for (i = 0;i < 10;i++)
-		scanf_s("%d", &arr[i]);
-
-	devidearr(arr, 10);
-
-	return 0;
-}
-
-void bubblesort(int* arr, int size)
-{
-	for (int i=0;i<size-1;i++)
-		for (int j=0;j<size-1-i;j++)
-			if (arr[j] > arr[j + 1])
-			{
-				int temp = arr[j];
-				arr[j] = arr[j + 1];
-				arr[j + 1] = temp;
-			}
-
-}
-
-void devidearr(int* arr, int size)
-{
-	int odd[20], even[20];
-	int j = 0,k=0;
-	//遍历元素,分数组
-	for (int i = 0;i < size;i++)
-	{
-		if (arr[i] % 2) odd[j++] = arr[i];
-		else even[k++] = arr[i];
-	}
-	//排序
-	bubblesort(odd, j);
-	bubblesort(even, k);
-	for (int i = j-1;i >=0;i--)
-		printf("%d ", odd[i]);
-	for (int i = 0;i<k;i++)
-		printf("%d ", even[i]);
-}
+////获取整体数组
+////分奇偶数组
+////分别排序
+////输出
+//#include<stdio.h>
+//void bubblesort(int* arr, int size);//排序
+//void devidearr(int* arr, int size);//分数组,输出
+//int main(void)
+//{
+//	int arr[100000];
+//	int i, j, k;
+//	//获取数组
+//	for (i = 0;i < 10;i++)
+//		scanf_s("%d", &arr[i]);
+//
+//	devidearr(arr, 10);
+//
+//	return 0;
+//}
+//
+//void bubblesort(int* arr, int size)
+//{
+//	for (int i=0;i<size-1;i++)
+//		for (int j=0;j<size-1-i;j++)
+//			if (arr[j] > arr[j + 1])
+//			{
+//				int temp = arr[j];
+//				arr[j] = arr[j + 1];
+//				arr[j + 1] = temp;
+//			}
+//
+//}
+//
+//void devidearr(int* arr, int size)
+//{
+//	int odd[20], even[20];
+//	int j = 0,k=0;
+//	//遍历元素,分数组
+//	for (int i = 0;i < size;i++)
+//	{
+//		if (arr[i] % 2) odd[j++] = arr[i];
+//		else even[k++] = arr[i];
+//	}
+//	//排序
+//	bubblesort(odd, j);
+//	bubblesort(even, k);
+//	for (int i = j-1;i >=0;i--)
+//		printf("%d ", odd[i]);
+//	for (int i = 0;i<k;i++)
+//		printf("%d ", even[i]);
+//}

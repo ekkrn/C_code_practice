@@ -19,7 +19,26 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="1.cpp" />
+    <ClCompile Include="10.12.3.cpp" />
+    <ClCompile Include="10.12.cpp" />
+    <ClCompile Include="10.13.11.cpp" />
+    <ClCompile Include="10.13.13.cpp" />
+    <ClCompile Include="10.13.9.cpp" />
     <ClCompile Include="10.3.cpp" />
+    <ClCompile Include="10.7.cpp" />
+    <ClCompile Include="10.13.10.cpp" />
+    <ClCompile Include="11.13.11.cpp" />
+    <ClCompile Include="11.13.13.cpp" />
+    <ClCompile Include="11.13.16.cpp" />
+    <ClCompile Include="11.2.cpp" />
+    <ClCompile Include="11.5.4.2.cpp" />
+    <ClCompile Include="11.5.4.cpp" />
+    <ClCompile Include="11.5.cpp" />
+    <ClCompile Include="11.6.1.cpp" />
+    <ClCompile Include="11.6.2+一部分习题.cpp" />
+    <ClCompile Include="12.2.2.cpp" />
+    <ClCompile Include="12.2.1.cpp" />
     <ClCompile Include="2.12.cpp" />
     <ClCompile Include="2.3.c" />
     <ClCompile Include="3.1.cpp" />
@@ -27,12 +46,15 @@
     <ClCompile Include="4.1.cpp" />
     <ClCompile Include="4.4.cpp" />
     <ClCompile Include="4.7.cpp" />
+    <ClCompile Include="4.cpp" />
     <ClCompile Include="5.1.cpp" />
     <ClCompile Include="5.9.cpp" />
+    <ClCompile Include="5.cpp" />
     <ClCompile Include="6.1.cpp" />
     <ClCompile Include="6.11.cpp" />
     <ClCompile Include="6.16.cpp" />
     <ClCompile Include="6.5.cpp" />
+    <ClCompile Include="6.cpp" />
     <ClCompile Include="7.11.cpp" />
     <ClCompile Include="7.2.cpp" />
     <ClCompile Include="8.11.cpp" />
@@ -44,9 +66,19 @@
     <ClCompile Include="9.11.cpp" />
     <ClCompile Include="9.3.cpp" />
     <ClCompile Include="9.5.cpp" />
+    <ClCompile Include="9.cpp" />
     <ClCompile Include="9801乘法表.cpp" />
+    <ClCompile Include="diceroll.cpp" />
     <ClCompile Include="FileName.c" />
+    <ClCompile Include="manydice.cpp" />
+    <ClCompile Include="pel2-2a.cpp" />
+    <ClCompile Include="pel2-2b.cpp" />
+    <ClCompile Include="pel2-8.cpp" />
     <ClCompile Include="递归菱形.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="diceroll.h" />
+    <ClInclude Include="pel2-2a.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
